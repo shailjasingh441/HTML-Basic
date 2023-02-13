@@ -1,5 +1,5 @@
 .parent{
-
+position: relative;
 }
 .child{
 
@@ -7,11 +7,15 @@
 .child-one{
     position: relative;
     top: 0px;
+    left: 30px;
 
 }
 .child-two{
-
+position:absolute;
 }
 .child-three{
+    position: sticky;
+    top:0;
+    left: 0;
 
 }
